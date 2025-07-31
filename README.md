@@ -18,7 +18,7 @@ Web application developed using Python and TensorFlow/Keras to classify images f
 
 For more information, see [Zalando's original repo](https://github.com/zalandoresearch/fashion-mnist) which this was pulled from.
 
-🔗 **Try it live**: [fashionmnist-classifier.streamlit.app](https://fashionmnist-classifier.streamlit.app)
+🔗 **Try it live**: [fashion-mnist-machine-learning-classifier.streamlit.app](https://fashion-mnist-machine-learning-classifier.streamlit.app)
 
 <br>
 
@@ -64,8 +64,8 @@ For more information, see [Zalando's original repo](https://github.com/zalandore
 To run the app locally:
 1. Clone the repository:
 ```bash
-git clone https://github.com/rmluck/Fashion-MNIST-Classifier.git
-cd Fashion-MNIST-Classifier
+git clone https://github.com/rmluck/Fashion-MNIST-Machine-Learning-Classifier.git
+cd Fashion-MNIST-Machine-Learning-Classifier
 ```
 2. Set up a virtual environment
 ```bash

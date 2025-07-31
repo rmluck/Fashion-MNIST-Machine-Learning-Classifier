@@ -1,14 +1,19 @@
+"""
+Visualizes various aspects of model performance, including confusion matrices, KNN accuracies, and prediction probabilities.
+"""
+
+# Import necessary libraries
 import seaborn as sns
 import matplotlib.pyplot as plt
 import os
 import sys
 import pandas as pd
 from sklearn.metrics import confusion_matrix
-
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from utils.inference import CLASS_NAMES
 
 
+# Function to plot confusion matrix
 def plot_confusion_matrix(y_true, y_pred):
     cm = confusion_matrix(y_true, y_pred)
     fig, ax = plt.subplots(figsize=(10, 8))
@@ -20,6 +25,7 @@ def plot_confusion_matrix(y_true, y_pred):
     return fig
 
 
+# Function to plot KNN accuracies
 def plot_knn_accuracies(k_values, accuracies):
     fig, ax = plt.subplots(figsize=(10, 6))
     ax.plot(k_values, accuracies, marker='o')
@@ -32,6 +38,7 @@ def plot_knn_accuracies(k_values, accuracies):
     return fig
 
 
+# Function to plot prediction probabilities
 def plot_prediction_probabilities(prediction_probs):
     if prediction_probs.ndim == 2 and prediction_probs.shape[0] == 1:
         prediction_probs = prediction_probs.flatten()

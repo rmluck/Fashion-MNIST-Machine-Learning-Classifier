@@ -10,5 +10,5 @@
 # Python virtual environment
 venv/
 
-# Environment variables
-backend/.envsaved_models/
+# Notebooks
+notebook/

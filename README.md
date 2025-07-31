@@ -99,6 +99,21 @@ View model's prediction and confidence score for selected image(s) along with vi
 
 ![](/static/img/prediction_results.png)
 
+Each training and test example is assigned to one of the following labels:
+
+| Label | Description |
+| --- | --- |
+| 0 | T-shirt/top |
+| 1 | Trouser |
+| 2 | Pullover |
+| 3 | Dress |
+| 4 | Coat |
+| 5 | Sandal |
+| 6 | Shirt |
+| 7 | Sneaker |
+| 8 | Bag |
+| 9 | Ankle boot |
+
 **Step 4: Evaluate Model**:
 
 Run evaluation on the entire Fashion MNIST test set to view confusion matrix and model performance metrics.

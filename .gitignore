@@ -11,4 +11,4 @@
 venv/
 
 # Environment variables
-backend/.env
+backend/.envsaved_models/

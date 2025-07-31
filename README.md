@@ -93,7 +93,7 @@ Select desired model from sidebar. Choose between Logistic Regression, KNN, Neur
 
 Upload JPG, JPEG, or PNG images of clothing items to get predictions. Find your own or use the provided [sample images](/static/sample_images/).
 
-**Step 3: View Prediction**:
+**Step 3: View Prediction**
 
 View model's prediction and confidence score for selected image(s) along with visualization charting probability for each possible label.
 
@@ -114,7 +114,7 @@ Each training and test example is assigned to one of the following labels:
 | 8 | Bag |
 | 9 | Ankle boot |
 
-**Step 4: Evaluate Model**:
+**Step 4: Evaluate Model**
 
 Run evaluation on the entire Fashion MNIST test set to view confusion matrix and model performance metrics.
 

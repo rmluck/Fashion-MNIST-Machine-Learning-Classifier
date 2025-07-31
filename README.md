@@ -10,6 +10,14 @@ Web application developed using Python and TensorFlow/Keras to classify images o
 
 **Target Users** are students, developers, and enthusiasts interested in computer vision, machine learning, and image classification workflows.
 
+**Dataset**: Fashion-MNIST is a dataset of [Zalando](https://jobs.zalando.com/tech/)'s article images, consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes. Used for benchmarking machine learning algorithms. This is what the data looks like (each class takes three rows):
+
+![](/static/img/fashion-mnist_dataset.png)
+
+![](/static/img/fashion-mnist_dataset.gif)
+
+For more information, see [Zalando's original repo](https://github.com/zalandoresearch/fashion-mnist) which this was pulled from.
+
 🔗 **Try it live**: [fashionmnist-classifier.streamlit.app](https://fashionmnist-classifier.streamlit.app)
 
 <br>
@@ -125,6 +133,10 @@ Run evaluation on the entire Fashion MNIST test set to view confusion matrix and
 ## 🙏 Contributions / Acknowledgements
 
 This project was built independently as a portfolio project to demonstrate practical machine learning workflows. Inspired by a course project I did using the Fashion-MNIST dataset.
+
+**Citations**
+
+Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms. Han Xiao, Kashif Rasul, Roland Vollgraf. [arXiv:1708.07747](http://arxiv.org/abs/1708.07747)
 
 ## 🪪 License
 

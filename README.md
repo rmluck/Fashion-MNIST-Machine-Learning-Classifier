@@ -1,4 +1,4 @@
-# Fashion-MNIST-Classifier
+# Fashion-MNIST Machine Learning Classifier
 
 *By Rohan Mistry - Last updated July 31, 2025*
 
@@ -6,7 +6,7 @@
 
 ## 📖 Overview
 
-Web application developed using Python and TensorFlow/Keras to classify images of clothing from the Fashion MNIST dataset. Users can upload grayscale 28x28 images of apparel items to receive predictions from several machine learning models including Logistic Regression, KNN, Neural Networks, and CNNs. The app also supports evaluation on the test set with detailed visualizations.
+Web application developed using Python and TensorFlow/Keras to classify images from the Fashion MNIST dataset which consists of 70,000 images of various items of clothing. Users can upload grayscale 28x28 images to receive predictions from several employed scikit-learn machine learning models including logistic regression, K-nearest neighbors, feed-forward neural networks, and convolutional neural networks. The app also supports evaluation on the test set with detailed visualizations.
 
 **Target Users** are students, developers, and enthusiasts interested in computer vision, machine learning, and image classification workflows.
 

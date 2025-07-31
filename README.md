@@ -14,7 +14,7 @@ Web application developed using Python and TensorFlow/Keras to classify images o
 
 <br>
 
-*****ADD IMAGE*****
+![](/static/img/streamlit_demo_application.png)
 
 ---
 
@@ -89,9 +89,13 @@ Upload JPG, JPEG, or PNG images of clothing items to get predictions. Find your 
 
 View model's prediction and confidence score for selected image(s) along with visualization charting probability for each possible label.
 
+![](/static/img/prediction_results.png)
+
 **Step 4: Evaluate Model**:
 
 Run evaluation on the entire Fashion MNIST test set to view confusion matrix and model performance metrics.
+
+![](/static/img/evaluation_metrics.png)
 
 ---
 
@@ -124,4 +128,4 @@ This project was built independently as a portfolio project to demonstrate pract
 
 ## 🪪 License
 
-This project is licensed under the [MIT License](/LICENSE)
+This project is licensed under the [MIT License](/LICENSE).

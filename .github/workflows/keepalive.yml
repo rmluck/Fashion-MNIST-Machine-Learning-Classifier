@@ -1,0 +1,12 @@
+name: Ping Streamlit App Weekly
+
+on:
+    schedule:
+        - cron: "0 8 * * 0" # Every Sunday at 08:00 UTC
+
+jobs:
+    ping:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Curl Streamlit App
+              run: curl -s https://fashion-mnist-machine-learning-classifier.streamlit.app

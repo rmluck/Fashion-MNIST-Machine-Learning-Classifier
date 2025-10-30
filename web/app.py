@@ -16,8 +16,14 @@ from output.visualization import plot_confusion_matrix, plot_prediction_probabil
 from data.data import load_data
 
 
+st.set_page_config(
+    page_title="Fashion MNIST Machine Learning Classifier",
+    layout="centered",
+    initial_sidebar_state="expanded",
+)
+
 # Set the title of the app
-st.title("Fashion MNIST Classifier")
+st.title("Fashion MNIST ML Classifier")
 
 # Prompt user to select a model
 model_choice = st.sidebar.selectbox("Choose a model", ("Logistic Regression", "KNN", "Neural Network", "CNN"))
